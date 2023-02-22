@@ -1,18 +1,18 @@
-*{
+* {
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     /* Color styles */
---sec-text: #C1C1C1;
---main-text: #FFFFFF;
---play-bar: #282828;
---bg: #141922;
---contrast: #ADFF2F;
---side-bar: #000000;
+    --sec-text: #C1C1C1;
+    --main-text: #FFFFFF;
+    --play-bar: #282828;
+    --bg: #141922;
+    --contrast: #ADFF2F;
+    --side-bar: #000000;
 
 }
 
@@ -31,3 +31,38 @@
 <i class="fa-solid fa-volume-high"></i>
 <i class="fa-solid fa-list-ul"></i>
 <i class="fa-solid fa-circle-arrow-down"></i>
+
+
+
+
+*/
+
+
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg);
+    color: var(--main-text);
+    overflow: hidden;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 90px);
+    overflow: hidden;
+}
+
+#playbar {
+    height: 90px;
+    width: 100%;
+    background-color: var(--play-bar);
+}
+
+.side-bar {
+    width: 230px;
+    height: 100%;
+    min-height: 480px;
+    background-color: var(--side-bar);
+    color: var(--sec-text);
+}
