@@ -7,7 +7,7 @@
 
 :root {
     /* Color styles */
-    --sec-text: #C1C1C1;
+    --sec-text: #73757A;
     --main-text: #FFFFFF;
     --play-bar: #282828;
     --bg: #141922;
@@ -37,43 +37,79 @@
 
 /* classi generiche*/
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.aic{
+.aic {
     align-items: center;
 }
 
-.acc{align-content: center;}
-
-.jus-end{
-    justify-content:flex-end ;
+.acc {
+    align-content: center;
 }
 
-.jus-sp{
+.jus-end {
+    justify-content: flex-end;
+}
+
+.jus-sp {
     justify-content: space-between;
 }
 
-.jus-c{
+.jus-c {
     justify-content: center;
 }
 
-.p-15{
+.gap-15{
+    gap: 15px;
+}
+
+.p-15 {
     padding: 15px;
 }
 
-.mr-10{
+
+
+.mr-10 {
     margin-right: 10px;
 }
 
-.btn{
+.bold{
+    font-weight: bold;
+}
+
+.fs-12{
+    font-size:12px ;
+}
+
+.btn {
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 20px;
     color: var(--main-text);
     border: 1px solid var(--main-text);
 }
+
+.tt-up{
+    text-transform: uppercase;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: var(--sec-text);
+}
+
+.mt-80{
+    margin-top: 80px;
+}
+
+
 
 
 
@@ -99,22 +135,22 @@ main {
     min-height: 480px;
     background-color: var(--side-bar);
     color: var(--sec-text);
-    
+
 }
 
-.main-content{
+.main-content {
     overflow: auto;
-    width:calc(100% - 230px)
-    ; background-color: var(--bg);
+    width: calc(100% - 230px);
+    background-color: var(--bg);
 }
 
-.upgrade-bar{
+.upgrade-bar {
     width: calc(100% - 230px);
     height: 80px;
-    background-color: rgba(0, 0, 0, 0.5)
-    ; position: fixed;
-    top:0
-    ; right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 
@@ -134,8 +170,8 @@ main {
 
 
 @media screen and (max-height:180px) {
-    .upgrade-bar{
+    .upgrade-bar {
         display: none;
     }
-    
+
 }
