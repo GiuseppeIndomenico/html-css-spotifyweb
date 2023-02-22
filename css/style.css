@@ -5,3 +5,29 @@
     box-sizing: border-box;
 }
 
+:root{
+    /* Color styles */
+--sec-text: #C1C1C1;
+--main-text: #FFFFFF;
+--play-bar: #282828;
+--bg: #141922;
+--contrast: #ADFF2F;
+--side-bar: #000000;
+
+}
+
+/*icons
+
+<i class="fa-solid fa-house"></i>
+<i class="fa-regular fa-circle-play"></i>
+<i class="fa-regular fa-heart"></i>
+<i class="fa-regular fa-folder"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+<i class="fa-solid fa-backward-step"></i>
+<i class="fa-solid fa-forward-step"></i>
+<i class="fa-solid fa-rotate-right"></i>
+<i class="fa-solid fa-shuffle"></i>
+<i class="fa-solid fa-desktop"></i>
+<i class="fa-solid fa-volume-high"></i>
+<i class="fa-solid fa-list-ul"></i>
+<i class="fa-solid fa-circle-arrow-down"></i>
