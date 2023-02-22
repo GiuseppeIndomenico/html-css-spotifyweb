@@ -30,7 +30,9 @@
 <i class="fa-solid fa-desktop"></i>
 <i class="fa-solid fa-volume-high"></i>
 <i class="fa-solid fa-list-ul"></i>
-<i class="fa-solid fa-circle-arrow-down"></i>
+<i class="fa-solid fa-arrow-down"></i>
+<i class="fa-solid fa-bars"></i>
+<i class="fa-solid fa-plus"></i>
 
 */
 
@@ -77,6 +79,14 @@
     padding: 15px;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
 .pt-80 {
     padding-top: 80px;
 }
@@ -91,6 +101,14 @@
 
 .fs-12 {
     font-size: 12px;
+}
+
+.bt {
+    border-top: 1px solid var(--sec-text);
+}
+
+.column {
+    flex-direction: column;
 }
 
 
@@ -123,14 +141,41 @@ a {
 
 img {
     width: 100%;
+    display: block;
+}
+
+.small {
+    display: none;
+}
+
+.as-end {
+    align-self: flex-end;
 }
 
 .mb-10 {
     margin-bottom: 10px;
 }
 
-.mt-10, h4 {
+.mt-10 {
     margin-top: 10px;
+}
+
+.mb-15,
+li {
+    margin-bottom: 15px;
+}
+
+.mt-10,
+h4 {
+    margin-top: 10px;
+}
+
+.tc-p {
+    color: var(--main-text);
+}
+
+.pl-5 {
+    padding-left: 5px;
 }
 
 
@@ -164,6 +209,43 @@ main {
 
 }
 
+a i {
+    font-size: 20px;
+}
+
+
+.logo {
+    width: 70%;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    color: var(--sec-text);
+}
+
+.fa-arrow-down {
+    border: 1px solid var(--sec-text);
+    border-radius: 50%;
+    padding: 2.5px 4px;
+    font-size: 10px;
+
+}
+
+#plus {
+    display: inline-block;
+    background-color: var(--sec-text);
+    color: var(--side-bar);
+    padding: 5px 8px;
+}
+
+#user {
+    background-color: var(--sec-text);
+    border-radius: 50%;
+    padding: 5px;
+    display: block;
+}
 
 
 .main-content {
@@ -194,9 +276,9 @@ main {
     margin-top: 10px;
 }
 
-.artist img{
+.artist img {
     border-radius: 50%;
-    
+
 }
 
 
