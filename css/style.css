@@ -32,10 +32,49 @@
 <i class="fa-solid fa-list-ul"></i>
 <i class="fa-solid fa-circle-arrow-down"></i>
 
-
-
-
 */
+
+
+/* classi generiche*/
+
+.d-flex{
+    display: flex;
+}
+
+.aic{
+    align-items: center;
+}
+
+.acc{align-content: center;}
+
+.jus-end{
+    justify-content:flex-end ;
+}
+
+.jus-sp{
+    justify-content: space-between;
+}
+
+.jus-c{
+    justify-content: center;
+}
+
+.p-15{
+    padding: 15px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    color: var(--main-text);
+    border: 1px solid var(--main-text);
+}
+
 
 
 
@@ -53,11 +92,6 @@ main {
     overflow: hidden;
 }
 
-#playbar {
-    height: 90px;
-    width: 100%;
-    background-color: var(--play-bar);
-}
 
 .side-bar {
     width: 230px;
@@ -65,4 +99,43 @@ main {
     min-height: 480px;
     background-color: var(--side-bar);
     color: var(--sec-text);
+    
+}
+
+.main-content{
+    overflow: auto;
+    width:calc(100% - 230px)
+    ; background-color: var(--bg);
+}
+
+.upgrade-bar{
+    width: calc(100% - 230px);
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5)
+    ; position: fixed;
+    top:0
+    ; right: 0;
+}
+
+
+#playbar {
+    height: 90px;
+    width: 100%;
+    background-color: var(--play-bar);
+}
+
+
+
+
+
+/*media query*/
+
+
+
+
+@media screen and (max-height:180px) {
+    .upgrade-bar{
+        display: none;
+    }
+    
 }
