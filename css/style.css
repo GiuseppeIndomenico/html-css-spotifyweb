@@ -16,6 +16,7 @@
 
 }
 
+
 /*icons
 
 <i class="fa-solid fa-house"></i>
@@ -75,12 +76,20 @@
     gap: 15px;
 }
 
+.p-5 {
+    padding: 5px;
+}
+
 .p-15 {
     padding: 15px;
 }
 
 .p-10 {
     padding: 10px;
+}
+
+.pt-10 {
+    padding-top: 10px;
 }
 
 .pt-15 {
@@ -91,6 +100,10 @@
     padding-top: 80px;
 }
 
+.pm-10{
+    padding-bottom: 10px;
+}
+
 .mr-30 {
     margin-right: 30px;
 }
@@ -99,9 +112,82 @@
     font-weight: bold;
 }
 
+.fs-10 {
+    font-size: 10px;
+}
+
 .fs-12 {
     font-size: 12px;
 }
+
+.fs-16 {
+    font-size: 32px;
+    transform: scale(0.8);
+}
+
+.pulsanti i:hover {
+    transform: scale(1.4);
+}
+
+
+
+/* sound-bar*/
+
+
+input[type="range"] {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 100%;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-image: linear-gradient(#ADFF2F, #ADFF2F);
+    background-size: 30% 100%;
+    background-repeat: no-repeat;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid white;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+
+}
+
+input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #73757A;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+
+}
+
+input[type="range"]::-ms-thumb {
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #73757A;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #555;
+    
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #ADFF2F;
+}
+
+
+
+
+
 
 .bt {
     border-top: 1px solid var(--sec-text);
@@ -176,6 +262,10 @@ h4 {
 
 .pl-5 {
     padding-left: 5px;
+}
+
+.pl-15 {
+    padding-left: 15px;
 }
 
 
@@ -286,6 +376,23 @@ a i {
     width: 100%;
     background-color: var(--play-bar);
 }
+
+.album,
+.volume {
+    width: 230px;
+    height: 100%;
+}
+
+.copertina {
+    width: 50px;
+}
+
+.sound-bar {
+    width: 33%;
+    height: 100%;
+}
+
+
 
 .card {
     width: calc(100% / 6 - 15px);
