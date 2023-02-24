@@ -72,6 +72,10 @@
     justify-content: center;
 }
 
+.jus-st{
+    justify-content: flex-start;
+}
+
 .fl-wr {
     flex-flow: row wrap;
 }
@@ -127,6 +131,11 @@
 .fs-16 {
     font-size: 32px;
     transform: scale(0.8);
+}
+
+.fs-32{
+    font-size: 72px;
+    font-weight: bolder;
 }
 
 .circle {
@@ -393,6 +402,10 @@ a i {
 
 .logo {
     width: 70%;
+}
+
+.gian{
+    display: inline;
 }
 
 .icon {
