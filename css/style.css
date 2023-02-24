@@ -497,7 +497,7 @@ a i {
 /*seconda pagina*/
 
 .bg-sec-page{
-    background: linear-gradient( rgba(255,0,0, 0.8), var(--bg));
+    background: linear-gradient( rgba(146,20,42, 0.9), var(--bg));
 }
 
 
