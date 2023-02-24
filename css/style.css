@@ -129,7 +129,7 @@
     transform: scale(0.8);
 }
 
-.circle{
+.circle {
     border-radius: 50%;
 }
 
@@ -194,6 +194,12 @@ nav ul li:hover :after {
 .card:hover .overlay {
     opacity: 1;
 }
+
+.sez-playlist{
+    height:80%
+    ; overflow: hidden;
+}
+
 
 /* sound-bar*/
 
@@ -375,7 +381,7 @@ main {
 
 .playlist {
     overflow: auto;
-    height: 250px;
+    height:60%;
 
 }
 
