@@ -525,13 +525,21 @@ a i {
 }
 
 
-.title-song{width: 15%;}
+.title-song{width: 20%;}
 .song{
     transition: all .5s;
 }
 .song:hover{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
+}
+
+.song:hover .title-song::after{
+    content: "\f004";
+    font-family:  "font awesome 6 free";
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*media query*/
 
