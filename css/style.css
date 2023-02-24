@@ -138,6 +138,10 @@
     font-weight: bolder;
 }
 
+.lil-op{
+    opacity: 0.6;
+}
+
 .circle {
     border-radius: 50%;
 }
