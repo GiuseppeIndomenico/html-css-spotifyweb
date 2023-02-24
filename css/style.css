@@ -13,6 +13,8 @@
     --bg: #141922;
     --contrast: #ADFF2F;
     --side-bar: #000000;
+    --select: #00e16f;
+
 
 }
 
@@ -72,7 +74,7 @@
     justify-content: center;
 }
 
-.jus-st{
+.jus-st {
     justify-content: flex-start;
 }
 
@@ -133,12 +135,12 @@
     transform: scale(0.8);
 }
 
-.fs-32{
+.fs-32 {
     font-size: 72px;
     font-weight: bolder;
 }
 
-.lil-op{
+.lil-op {
     opacity: 0.6;
 }
 
@@ -208,9 +210,9 @@ nav ul li:hover :after {
     opacity: 1;
 }
 
-.sez-playlist{
-    height:80%
-    ; overflow: hidden;
+.sez-playlist {
+    height: 80%;
+    overflow: hidden;
 }
 
 
@@ -395,7 +397,7 @@ main {
 
 .playlist {
     overflow: auto;
-    height:60%;
+    height: 60%;
 
 }
 
@@ -408,7 +410,7 @@ a i {
     width: 70%;
 }
 
-.gian{
+.gian {
     display: inline;
 }
 
@@ -458,6 +460,10 @@ a i {
     right: 0;
 }
 
+.bg-bot-album {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 #playbar {
     height: 90px;
@@ -496,15 +502,37 @@ a i {
 
 /*seconda pagina*/
 
-.bg-sec-page{
-    background: linear-gradient( rgba(146,20,42, 0.9), var(--bg));
+.bg-sec-page {
+    background: linear-gradient(rgba(146, 20, 42, 0.9), var(--side-bar));
+}
+
+.icon-album {
+    font-size: 48px;
+    color: var(--sec-text);
+}
+
+.green {
+    color: var(--select);
+    font-size: 56px;
+}
+
+.icon-album:hover{
+    color: var(--select);
+}
+
+.song-list{
+    border-bottom: 1px solid var(--sec-text);
 }
 
 
-
-
-
-
+.title-song{width: 15%;}
+.song{
+    transition: all .5s;
+}
+.song:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
 /*media query*/
 
 
